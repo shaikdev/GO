@@ -4,3 +4,4 @@ pkg/
 .DS_Store
 01hello/go.mod
 02variables/go.mod
+03userinput/go.mod

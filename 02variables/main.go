@@ -7,7 +7,7 @@ const Login string = "login"
 const Number int = 200
 
 func main() {
-	var name string = "shaikr ahuman"
+	var name string = "shaik rahuman"
 	fmt.Println(name)
 	fmt.Printf("Variable is of type: %T \n", name)
 

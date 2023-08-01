@@ -2,5 +2,5 @@ bin/
 pkg/
 .go.mod
 .DS_Store
-01-hello/go.mod
-02-variables/go.mod
+01hello/go.mod
+02variables/go.mod

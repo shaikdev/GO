@@ -1,0 +1,6 @@
+bin/
+pkg/
+.go.mod
+.DS_Store
+01-hello/go.mod
+02-varibales/go.mod

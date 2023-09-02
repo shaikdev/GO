@@ -18,7 +18,7 @@ func main() {
 
 	veg := []string{"Potato", "Tomato", "Garlic"}
 	fmt.Println("This is veg array list: ", veg)
-	// splice range between 0 and 2
+	// slice range between 0 and 2
 	sliceVegArray := append(veg[0:2])
 	fmt.Println("sliceVeg array list: ", sliceVegArray)
 

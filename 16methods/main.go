@@ -18,7 +18,7 @@ func main() {
 }
 
 func (u User) user() {
-	fmt.Println("This function for change a email id")
+	fmt.Println("This function for change an email id")
 	u.email = "shaikdev76@gmail.com"
 	fmt.Printf("My name is %v, My email id is %v, My age is %v\n", u.name, u.email, u.age)
 }

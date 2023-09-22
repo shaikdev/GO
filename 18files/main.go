@@ -12,7 +12,8 @@ func main() {
 	const content string = "Hello this is the testing for golang file creation"
 	file, err := os.Create("./mygolangfile.text")
 	checkErrorNil(err)
-	io.WriteString(file, content)
+	_, writeErr := io.WriteString(file, content)
+	checkErrorNil(writeErr)
 	file.Close()
 	readFile("./mygolangfile.text")
 

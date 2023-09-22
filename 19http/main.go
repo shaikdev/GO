@@ -11,8 +11,8 @@ func main() {
 	response, err := http.Get("https://lco.dev")
 	checkErrorNil(err)
 	defer response.Body.Close()
-	readResponse, err := ioutil.ReadAll(response.Body)
-	checkErrorNil(err)
+	readResponse, readErr := ioutil.ReadAll(response.Body)
+	checkErrorNil(readErr)
 	content := string(readResponse)
 	fmt.Println("The response is: ", content)
 
